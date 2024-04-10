@@ -8,7 +8,7 @@ int main (void) {
 
     int ans;
     ans = secret_math(5, 2, 3, 7);
-    printf("%d", ans);
+    printf("%d\n", ans);
 
     return 0;
 }
