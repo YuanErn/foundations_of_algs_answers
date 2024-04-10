@@ -34,7 +34,7 @@ int find_bby(char rooms[], int n) {
     if (bby_head == -1 || room_head == -1) {
         return -1;
     } else {
-        swapping_bby(bby_head, room_head, rooms); // Removed brackets []
+        swapping_bby(bby_head, room_head, rooms); 
         return 1;
     }
 }
