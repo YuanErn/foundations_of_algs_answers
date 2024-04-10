@@ -35,7 +35,7 @@ int secret(int i, int K) {
             if (current % x == 0 && is_prime(x)) {
                 // Factor of the current number & this factor is also a prime
                 if (x > K) {
-                    // This is smaller or equal to the prime number we are testing for
+                    // This is larger than the prime number we are testing for, therefore this is not a valid number
                     failed = 1;
                 }
             }
